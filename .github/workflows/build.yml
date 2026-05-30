@@ -26,7 +26,7 @@ jobs:
     - name: Initialize Cordova Project
       run: |
         npm install -g cordova
-        cordova create myapp com.munasar.tasbihpro TasbihPro
+        cordova create myapp com.101munasar.tasbihpro TasbihPro
         mv index.html myapp/www/index.html
         
     - name: Build Android Platform and APK
