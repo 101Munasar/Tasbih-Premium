@@ -1,0 +1,24 @@
+{
+  "name": "com.munasar.tasbihpro",
+  "displayName": "TasbihPro",
+  "version": "1.0.0",
+  "description": "Tasbih Pro App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Munasar",
+  "license": "ISC",
+  "dependencies": {
+    "cordova-android": "^13.0.0"
+  },
+  "cordova": {
+    "plugins": {},
+    "platforms": [
+      "android"
+    ]
+  }
+}
